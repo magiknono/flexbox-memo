@@ -1,0 +1,51 @@
+/* flexbox with space around */
+.flexbox-space-around {
+  display:flex;
+  background-color:yellow;
+  justify-content: space-around;
+}
+
+/* flexbox with space between */
+.flexbox-space-between {
+  display:flex;
+  background-color:yellow;
+  justify-content: space-between;
+}
+
+/* flexbox with space around and align items vertically */
+.flexbox-align-items-around {
+  display:flex;
+  background-color:yellow;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* flexbox with space between and align items vertically */
+.flexbox-align-items-between {
+  display:flex;
+  background-color:yellow;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* fixed-items cannot grow, cannot shrink, and have to take 25% of a flexbox */
+.fixed-item {
+  flex: 0 0 25%;
+  background-color:red;
+}
+.growing-item {
+  flex-grow:1;
+}
+
+/* flexbox with space between and align items vertically and allow to go to the next line with wrap */
+.flexbox-align-items-between-wrap {
+  display:flex;
+  flex-wrap:wrap;
+  background-color:yellow;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  background-color: green;
+}
