@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!-- Rediriger la page après 3 secondes -->
+<!-- <meta http-equiv="refresh" content="3;url=http://www.mozilla.org"> -->
+
+<title>html 5 with flexbox</title>
+
+<meta property='og:image' content='http://example.com/thumbnail.jpg'>
+<link href="normalize.css" rel="stylesheet">
+<link href="flexbox.css" rel="stylesheet">
+
+<!-- optionnal -->
+<link rel="icon" href="favicon.ico">
+<link href="print.css" rel="stylesheet" media="print">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">HEADER BASICS</a></li>
+      <li><a href="#">BODY BASICS</a></li>
+      <li><a href="#">NAV AND OTHERS</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+
+
+      <header>
+        <h1><a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Utilisation_des_flexbox_en_CSS">FLEXBOX WITH HTML 5</a></h1>
+      </header>
+
+       <hgroup>
+          <h2>flexbox-space-around</h2>
+      </hgroup>
+  <div class="flexbox-space-around">
+      <section>
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+        <hgroup>
+          <h2>flexbox-space-between</h2>
+      </hgroup>
+  <div class="flexbox-space-between">
+      <section>
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+        <hgroup>
+          <h2>flexbox-align-items-around</h2>
+      </hgroup>
+  <div class="flexbox-align-items-around">
+      <section>
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+        <hgroup>
+          <h2>flexbox-align-items-between</h2>
+      </hgroup>
+   <div class="flexbox-align-items-between">
+      <section>
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+      <hgroup>
+          <h2>flexbox-align-items-around : set the width of red item to 25%</h2>
+      </hgroup>
+    <div class="flexbox-align-items-around">
+      <section class="fixed-item">
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section  class="fixed-item">
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+  <hgroup>
+          <h2>flexbox-align-items-around : set the width of red item to 25% and grow the middle item</h2>
+      </hgroup>
+      <div class="flexbox-align-items-between">
+      <section class="fixed-item">
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section class="growing-item">
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section  class="fixed-item">
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+    <hgroup>
+          <h2>flexbox-align-items-between-wrap :allow to go to the next line with flex-wrap</h2>
+      </hgroup>
+      <div class="flexbox-align-items-between-wrap">
+      <section>
+        <h3>Beetles</h3>
+            <h4>External morphology</h4>
+                <h5>Head</h5>
+                    <h6>Mouthparts</h6>
+                <h5>Thorax</h5>
+                    <h6>Prothorax</h6>
+                    <h6>Pterothorax</h6>
+      </section>
+
+      <section>
+          <h3>Introduction</h3>
+          <p>People have been catching fish for food since before recorded history...</p>
+      </section>
+
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+      <section>
+          <h3>Equipment</h3>
+          <p>The first thing you'll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you're expecting to try to land...</p>
+      </section>
+  </div>
+  <br />
+
+      <aside>
+          <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+      </aside>
+
+      <article class="forecast">
+          <h4>Weather forecast for Seattle</h4>
+          <article class="day-forecast">
+              <h5>03 March 2018</h5>
+              <p>Rain.</p>
+          </article>
+          <article class="day-forecast">
+              <h5>04 March 2018</h5>
+              <p>Periods of rain.</p>
+          </article>
+          <article class="day-forecast">
+              <h5>05 March 2018</h5>
+              <p>Heavy rain.</p>
+          </article>
+      </article>
+
+
+  </main>
+
+  <footer>
+    <ul>
+      <li>link 1</li>
+      <li>link 2</li>
+    </ul>
+  </footer>
+
+</body>
+</html>
